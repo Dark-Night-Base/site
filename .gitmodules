@@ -1,0 +1,3 @@
+[submodule "themes/hugo-creative-theme"]
+	path = themes/hugo-creative-theme
+	url = https://github.com/Dark-Night-Base/hugo-creative-theme.git
