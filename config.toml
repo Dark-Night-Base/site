@@ -44,7 +44,7 @@ googleAnalytics = ""
 		slogan     = "暗夜基地"
 		subtitle   = "a pure survival Minecraft server for Dark Night Base"
 		buttonText = "查看地图"
-		link       = "https://www.sciroccogti.top/map"
+		link       = "https://map.sciroccogti.top/"
 
 
 	# About section
@@ -55,28 +55,28 @@ googleAnalytics = ""
 		
 
 	# Service section
-#	[params.services]
-#		headline = ""
+	[params.services]
+		headline = ""
 
-#        [[params.services.list]]
-#            icon = "fa-diamond"
-#            title = "Sturdy Templates"
-#            description = "Our templates are updated regularly so they don't break."
+        [[params.services.list]]
+		icon = "fa-github"
+		title = "GitHub"
+		description = "我们为 MCDaemon-go 贡献插件，并积极开发新款 MCD"
 
-#        [[params.services.list]]
-#			icon = "fa-paper-plane"
-#			title = "Ready to Ship"
-#			description = "You can use this theme as is, or you can make changes!"
+        [[params.services.list]]
+		icon = "fa-balance-scale"
+		title = "Pure Survival Server"
+		description = "纯净生存，原汁原味"
 
-#		[[params.services.list]]
-#           icon = "fa-newspaper-o"
-#            title = "Up to Date"
-#            description = "We update dependencies to keep things fresh."
+	[[params.services.list]]
+		icon = "fa-wrench"
+		title = "Redstone Machines"
+		description = "我们学习、建造高效稳定的生电设施"
 
-#        [[params.services.list]]
-#            icon = "fa-heart"
-#            title = "Made with Love"
-#            description = "You have to make your websites with love these days!"
+        [[params.services.list]]
+		icon = "fa-gamepad"
+		title = "Play with Love"
+		description = "热爱，快乐，这是我们的终极主题"
 
 
     # Portfolio modals
@@ -87,20 +87,23 @@ googleAnalytics = ""
         buttonText = "Close"
 
     # Aside section
-	[params.aside]
-		headline = "了解更多细节"
+	#[params.aside]
+	#	headline = "了解更多细节"
 
-		[params.aside.button]
-			text = "查看指南"
-			link = "//www.sciroccogti.top/mc"
+	#	[params.aside.button]
+	#		text = "查看指南"
+	#		link = "//www.sciroccogti.top/mc"
 
 	# Contact section
-	#[params.contact]
-	#	headline = "Let's Get In Touch!"
-	#	description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+	[params.contact]
+		headline = "了解更多"
+		description = ""
 	#	phone = "123-456-6789"
-	#	email = "feedback@startbootstrap.com"
-	#	github = "Dark-Night-Base"
+		email = "scirocco_gti@yeah.net"
+		github = "https://github.com/Dark-Night-Base"
+		githubname = "Dark-Night-Base"
+		map = "https://map.sciroccogti.top"
+		mapname = "BlueMap"
 	# Google Maps section
 	# [params.location]
 	# 	latitude  = "34.007850"
