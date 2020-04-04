@@ -31,21 +31,12 @@ googleAnalytics = ""
 	[params.navigation]
 		brand = "暗夜基地"
 
-		[[params.navigation.links]]
-			title = "About"
-			href = "#about"
+		[params.navigation.links]
+			about     = "About"
+			services  = "Map"
+			portfolio = "Portfolio"
+			contact   = "Contact"
 
-	#	[[params.navigation.links]]
-	#		title  = "Map"
-	#		href = "#Service"
-
-		[[params.navigation.links]]
-			title = "Portfolio"
-			href = "#portfolio"
-
-		[[params.navigation.links]]
-			title = "Contact"
-			href = "#contact"
 
 	# Hero section
 	[params.hero]
@@ -58,7 +49,6 @@ googleAnalytics = ""
 
 	# About section
 	[params.about]
-		sectionid = "about"
 		headline    = "关于本服"
 		description = "这是一个由一群学生建立的 Minecraft 纯净生存服，在生存模式下打造自己的多彩世界"
 		buttonText  = ""
@@ -67,30 +57,28 @@ googleAnalytics = ""
 	# Service section
 	[params.services]
 		headline = ""
-		sectionid = "services"
 
         [[params.services.list]]
-		icon = "fab fa-github"
+		icon = "fa-github"
 		title = "GitHub"
 		description = "我们为 MCDaemon-go 贡献插件，并积极开发新款 MCD"
 
         [[params.services.list]]
-		icon = "fas fa-balance-scale"
+		icon = "fa-balance-scale"
 		title = "Pure Survival Server"
 		description = "纯净生存，原汁原味"
 
 	[[params.services.list]]
-		icon = "fas fa-wrench"
+		icon = "fa-wrench"
 		title = "Redstone Machines"
 		description = "我们学习、建造高效稳定的生电设施"
 
         [[params.services.list]]
-		icon = "fas fa-gamepad"
+		icon = "fa-gamepad"
 		title = "Play with Love"
 		description = "热爱，快乐，这是我们的终极主题"
 
-    [params.portfolio]
-	sectionid = "portfolio"
+
     # Portfolio modals
 	[params.portfolio.modal]
         client = "Builder"
@@ -108,9 +96,8 @@ googleAnalytics = ""
 
 	# Contact section
 	[params.contact]
-		sectionid = "contact"
 		headline = "了解更多"
-		description = " "
+		description = ""
 	#	phone = "123-456-6789"
 		email = "scirocco_gti@yeah.net"
 		github = "https://github.com/Dark-Night-Base"
