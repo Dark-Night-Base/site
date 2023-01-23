@@ -61,7 +61,7 @@ googleAnalytics = ""
         [[params.services.list]]
 		icon = "fa-github"
 		title = "GitHub"
-		description = "我们为 MCDaemon-go 贡献插件，并积极开发新款 MCD"
+		description = "我们为 MCDReforged、MCDaemon-go 贡献插件，并积极开发新款 MCD"
 
         [[params.services.list]]
 		icon = "fa-balance-scale"
