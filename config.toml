@@ -44,7 +44,7 @@ googleAnalytics = ""
 		slogan     = "暗夜基地"
 		subtitle   = "a pure survival Minecraft server for Dark Night Base"
 		buttonText = "查看地图"
-		link       = "https://map.sciroccogti.top/"
+		link       = "https://mc.sciroccogti.top/map/"
 
 
 	# About section
@@ -102,7 +102,7 @@ googleAnalytics = ""
 		email = "scirocco_gti@yeah.net"
 		github = "https://github.com/Dark-Night-Base"
 		githubname = "Dark-Night-Base"
-		map = "https://map.sciroccogti.top"
+		map = "https://mc.sciroccogti.top/map/"
 		mapname = "BlueMap"
 	# Google Maps section
 	# [params.location]
